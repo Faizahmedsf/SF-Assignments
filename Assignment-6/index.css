@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:cursive;
+}
+
+.tasks{
+    margin: 3rem auto;
+}
+
+.add-task{
+    /* border: 2px solid black  ; */
+    box-shadow: 8px 16px 42px -38px #f9f9f9;
+}
