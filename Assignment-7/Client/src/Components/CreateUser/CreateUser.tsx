@@ -35,9 +35,9 @@ function CreateUser() {
         .string()
         .email("Invalid Email Address")
         .required("Last Name is Required"),
-      // phone: yup.number().required("Phone No is Required"),
-      // role: yup.string().required("Role is Required"),
-      // address: yup.string().required("Address is Required"),
+       phone: yup.number().required("Phone No is Required"),
+       role: yup.string().required("Role is Required"),
+       address: yup.string().required("Address is Required"),
     }),
 
     // OnSubmit Function
@@ -54,9 +54,9 @@ function CreateUser() {
         <div className="d-flex justify-content-between">
           <h3>Create a new User</h3>
           <div>
-            {/* <Link to="/">
+             <Link to="/">
               <button className="btn btn-primary mx-3">Go Back</button>
-            </Link> */}
+            </Link> 
           </div>
         </div>
 
