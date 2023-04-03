@@ -11,12 +11,3 @@ export const conn = new Client({
 });
 
 conn.connect()
-
-conn.query("select * from users" , (err , result) => {
-    if (err) {
-        console.log("Error in Db Connection")
-    }
-    else{
-        console.log("DB Connected Successfully")
-    }
-})
