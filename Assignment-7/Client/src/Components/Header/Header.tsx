@@ -17,8 +17,8 @@ function Header() {
             <h2>Http Methods</h2>
             <div>
                 <button data-testid="Button" className="btn btn-success mx-3" onClick={loadUser}>Load User</button>
-                    {/* <Link to="/createuser"><button className="btn btn-dark mx-3" >
-                    Create user</button></Link> */}
+                     <Link to="/createuser"><button className="btn btn-dark mx-3" >
+                    Create user</button></Link> 
             </div>
         </div>
         {
