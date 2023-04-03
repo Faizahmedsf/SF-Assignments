@@ -5,7 +5,7 @@ function NotFound() {
   return (
     <div className='NotFound'>
         <h2>Page Not Found 404</h2>
-        {/* <button className='btn btn-dark my-3'> <Link to="/"> Go Back </Link></button> */}
+         <button className='btn btn-dark my-3'> <Link to="/"> Go Back </Link></button> 
     </div>
   )
 }
