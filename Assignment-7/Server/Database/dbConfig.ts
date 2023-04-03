@@ -10,4 +10,3 @@ export const conn = new Client({
     port: process.env.PORT as any
 });
 
-conn.connect()
