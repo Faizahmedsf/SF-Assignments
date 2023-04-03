@@ -31,7 +31,7 @@ enum userRole {
 // fetching the data from data.json for user data
 // const n = async () => {
 
-const newp = fetch('http://localhost:8001/getdata', {
+const newp = fetch('http://localhost:8001/crud/users', {
     method: 'GET'
 }).then((response) => response.json())
     .then(data => { return data })
@@ -293,7 +293,7 @@ const createUser = async (e: Event) => {
     console.log('ab', ab)
     // localStorage.setItem('ab', JSON.stringify(ab))
     // window.location.href = 'index.html';
-    const res = await fetch('http://localhost:8001/postdata' , {
+    const res = await fetch('http://localhost:8001/crud/users' , {
         method: 'POST',
         headers: {
             'content-type': 'application/json'
